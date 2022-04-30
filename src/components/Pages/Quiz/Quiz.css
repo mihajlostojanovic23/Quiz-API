@@ -1,0 +1,48 @@
+
+
+.quiz > .subtitle {
+color: black;
+position: relative;
+width: 200px;
+height: 50px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight:600;
+font-size: 25px;
+margin: auto;
+}
+
+.question_content {
+   margin: auto;
+   position: relative;
+   text-align: center;
+   font-size: 30px;
+ 
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+.quiz_title {
+    margin: 20px 0px;
+}
+
+@media (max-width: 450px) {
+    .info span {
+        width: 100%;
+    }
+}
+
+
+
+

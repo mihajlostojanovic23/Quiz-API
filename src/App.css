@@ -1,0 +1,31 @@
+* {
+  text-decoration: inherit;
+  scrollbar-width: thin;
+}
+
+* ::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(163, 163, 163);
+}
+
+
+.App {
+  background-image: url('../public/ques.jpg');
+  min-height: 95.5vh;
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  border: 8px solid rgb(163, 163, 163);
+   margin: 3px;
+   padding: 3px;
+   
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+min-height: 100%;
+background-color: rgba(245, 245, 245, 0.774);
+}

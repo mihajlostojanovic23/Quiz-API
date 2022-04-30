@@ -1,0 +1,19 @@
+.header {
+    position: relative;
+    text-decoration: inherit;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.title {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 10px;
+    height: 3px;
+    background-color: black;
+    border: none;
+}

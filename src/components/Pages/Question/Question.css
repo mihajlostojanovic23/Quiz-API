@@ -1,0 +1,72 @@
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+
+.wrong {
+    background-color: red !important;
+}
+
+.option {
+background: rgb(190, 190, 190);
+border: 0px;
+height: 50px;
+transition: 300ms;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+
+.select1 {
+    background-color: green !important;
+}
+
+.options >button:hover {
+    background: rgb(158, 158, 158);  
+    transition: 300ms;
+    
+}
+
+.options > button {
+    height: 40px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    min-width: 40%;
+    cursor: pointer;
+    margin: 20px 10px;
+    border: 0px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.error {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 492px) {
+    .options   button {
+        min-width: 90%;
+    }
+}
